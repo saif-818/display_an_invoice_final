@@ -11,7 +11,7 @@ namespace BuggyApp.Controllers
         public IActionResult GetData()
         {
             string result = null;
-            if(result.Length > 0) // will throw NullReferenceException
+            if(string.IsNullOrEmpty(result)) // will throw NullReferenceException
             {
                 return Ok(new { message = "Data fetched" });
             }
