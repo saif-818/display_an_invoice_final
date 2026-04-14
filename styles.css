@@ -1,0 +1,17 @@
+
+body {
+    background-colour: #f9f9f9;
+    font-famly: 'Helvetica', sans-serif;
+}
+
+#invoice-container {
+    border: 1px solid #ccc;
+    paddding: 20px;
+    width: 60%;
+    margn: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: cetner;
+}
